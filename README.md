@@ -1,5 +1,12 @@
-# Scenario Context Encoder-Decoder
+# When and Where Did it Happen? An Encoder-Decoder Model to Identify Scenario Context
 
+## Dataset
+TODO
+
+## HuggingFace Hub release 🤗
+TODO
+
+## Training the model
 This project contains the necessary code to train a T5 model to extract specific details (hereafter called contents) related to a given input text (hereafter called text).
 The contents we are interested in are "location" and "time". 
 There are two approaches investigated in this repository:
@@ -25,3 +32,9 @@ CUDA_VISIBLE_DEVICES=0 python -i -m src.t5_specific_event --seed 1 --weight_deca
 - `use_original` -> Whether to use the original data for training; It is used for testing regardless of the status of this flag
 - `use_paraphrase` -> Whether to use the paraphrase data for training and testing
 - `use_synthetic` -> Whether to use the synthetic data for training and testing
+
+## Running baselines
+TODO
+
+## Citing this work
+TODO
