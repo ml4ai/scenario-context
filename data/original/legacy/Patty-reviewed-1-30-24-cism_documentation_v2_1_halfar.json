@@ -1,0 +1,72 @@
+[
+  {
+    "type": "Highlight",
+    "page": 1,
+    "start_xy": [
+      118.955,
+      594.261
+    ],
+    "text": "n is the exponent in the Glen flow law, commonly taken as 3",
+    "author": "PGAHAN",
+    "created": "2024-01-30T09:07:54",
+    "color": "#0000ff",
+    "pre_context": "(8.2) (8.3) (8.4) 128 CHAPTER 8. TEST CASES 8.1.1 Halfar dome The Halfar test case describes the time evolution of a parabolic dome of ice, as described by Halfar (1983). For a flat-bedded SIA problem, this case has an analytic solution for the time varying ice thickness. We start with the general SIA ice evolution equation, ∂H ∂t = ∇· (ΓH n+2 n 1 − H | |∇ ∇ H), (8.1) where ",
+    "post_context": ", and Γ is a positive constant: For n = 3, the time-dependent solution is Γ= 2 n + 2 A(ρg)n. H(t, r) = H0 1 9 t0 t ! \" 1   t0 t \" − %! 1 18 r R0 & 3 7 4 3 ,   where ! and H0, R0 are the central height of the dome and its radius at time t = t0. For more details, see Halfar (1983), Bueler et al. (2005), and this link1. \" t0 = 1 18Γ 7 4 3 R4 0 H 7 0 , Provided files Our implementation of the Halfar dome test has an initial radius of R0 = 21.2 km and an initial thickness of H = 707.1 m. These values can be changed by editing the halfarDome function in runHalfar.py. • • • • • README.md Information about the test case, including technical details about running it. halfar.config This is the config file defining CISM options. It is set up to run Glide. halfar-HO.config This alternative config file is set up to run Glissade using the Blatter-Pattyn approximation of Stokes flow. By manually setting which ho approx under [ho options], users can choose other approximations (see Section 7.3). runHalfar.py This python script generates the dome initial condition and runs CISM. halfar results.py This script compares model results to the analytic solution. 1http://www.giseis.alaska.edu/input/carl/teaching/extra/bueler notes.pdf "
+  },
+  {
+    "type": "Highlight",
+    "page": 1,
+    "start_xy": [
+      379.056,
+      594.261
+    ],
+    "text": "Γ is a positive constant",
+    "author": "PGAHAN",
+    "created": "2024-01-30T09:07:41",
+    "color": "#ffd100",
+    "pre_context": "(8.2) (8.3) (8.4) 128 CHAPTER 8. TEST CASES 8.1.1 Halfar dome The Halfar test case describes the time evolution of a parabolic dome of ice, as described by Halfar (1983). For a flat-bedded SIA problem, this case has an analytic solution for the time varying ice thickness. We start with the general SIA ice evolution equation, ∂H ∂t = ∇· (ΓH n+2 n 1 − H | |∇ ∇ H), (8.1) where n is the exponent in the Glen flow law, commonly taken as 3, and ",
+    "post_context": ": For n = 3, the time-dependent solution is Γ= 2 n + 2 A(ρg)n. H(t, r) = H0 1 9 t0 t ! \" 1   t0 t \" − %! 1 18 r R0 & 3 7 4 3 ,   where ! and H0, R0 are the central height of the dome and its radius at time t = t0. For more details, see Halfar (1983), Bueler et al. (2005), and this link1. \" t0 = 1 18Γ 7 4 3 R4 0 H 7 0 , Provided files Our implementation of the Halfar dome test has an initial radius of R0 = 21.2 km and an initial thickness of H = 707.1 m. These values can be changed by editing the halfarDome function in runHalfar.py. • • • • • README.md Information about the test case, including technical details about running it. halfar.config This is the config file defining CISM options. It is set up to run Glide. halfar-HO.config This alternative config file is set up to run Glissade using the Blatter-Pattyn approximation of Stokes flow. By manually setting which ho approx under [ho options], users can choose other approximations (see Section 7.3). runHalfar.py This python script generates the dome initial condition and runs CISM. halfar results.py This script compares model results to the analytic solution. 1http://www.giseis.alaska.edu/input/carl/teaching/extra/bueler notes.pdf "
+  },
+  {
+    "type": "Highlight",
+    "page": 1,
+    "start_xy": [
+      110.878,
+      413.457
+    ],
+    "text": "H0, R0 are the central height of the dome and its radius at time t = t0",
+    "author": "chunwei",
+    "created": "2023-10-31T11:07:46",
+    "color": "#ffd100",
+    "pre_context": "(8.2) (8.3) (8.4) 128 CHAPTER 8. TEST CASES 8.1.1 Halfar dome The Halfar test case describes the time evolution of a parabolic dome of ice, as described by Halfar (1983). For a flat-bedded SIA problem, this case has an analytic solution for the time varying ice thickness. We start with the general SIA ice evolution equation, ∂H ∂t = ∇· (ΓH n+2 n 1 − H | |∇ ∇ H), (8.1) where n is the exponent in the Glen flow law, commonly taken as 3, and Γ is a positive constant: For n = 3, the time-dependent solution is Γ= 2 n + 2 A(ρg)n. H(t, r) = H0 1 9 t0 t ! \" 1   t0 t \" − %! 1 18 r R0 & 3 7 4 3 ,   where ! and ",
+    "post_context": ". For more details, see Halfar (1983), Bueler et al. (2005), and this link1. \" t0 = 1 18Γ 7 4 3 R4 0 H 7 0 , Provided files Our implementation of the Halfar dome test has an initial radius of R0 = 21.2 km and an initial thickness of H = 707.1 m. These values can be changed by editing the halfarDome function in runHalfar.py. • • • • • README.md Information about the test case, including technical details about running it. halfar.config This is the config file defining CISM options. It is set up to run Glide. halfar-HO.config This alternative config file is set up to run Glissade using the Blatter-Pattyn approximation of Stokes flow. By manually setting which ho approx under [ho options], users can choose other approximations (see Section 7.3). runHalfar.py This python script generates the dome initial condition and runs CISM. halfar results.py This script compares model results to the analytic solution. 1http://www.giseis.alaska.edu/input/carl/teaching/extra/bueler notes.pdf "
+  },
+  {
+    "type": "Highlight",
+    "page": 1,
+    "start_xy": [
+      299.126,
+      352.592
+    ],
+    "text": "initial radius of R0 = 21.2 km ",
+    "author": "chunwei",
+    "created": "2023-10-31T11:09:44",
+    "color": "#0000ff",
+    "pre_context": "(8.2) (8.3) (8.4) 128 CHAPTER 8. TEST CASES 8.1.1 Halfar dome The Halfar test case describes the time evolution of a parabolic dome of ice, as described by Halfar (1983). For a flat-bedded SIA problem, this case has an analytic solution for the time varying ice thickness. We start with the general SIA ice evolution equation, ∂H ∂t = ∇· (ΓH n+2 n 1 − H | |∇ ∇ H), (8.1) where n is the exponent in the Glen flow law, commonly taken as 3, and Γ is a positive constant: For n = 3, the time-dependent solution is Γ= 2 n + 2 A(ρg)n. H(t, r) = H0 1 9 t0 t ! \" 1   t0 t \" − %! 1 18 r R0 & 3 7 4 3 ,   where ! and H0, R0 are the central height of the dome and its radius at time t = t0. For more details, see Halfar (1983), Bueler et al. (2005), and this link1. \" t0 = 1 18Γ 7 4 3 R4 0 H 7 0 , Provided files Our implementation of the Halfar dome test has an ",
+    "post_context": "and an initial thickness of H = 707.1 m. These values can be changed by editing the halfarDome function in runHalfar.py. • • • • • README.md Information about the test case, including technical details about running it. halfar.config This is the config file defining CISM options. It is set up to run Glide. halfar-HO.config This alternative config file is set up to run Glissade using the Blatter-Pattyn approximation of Stokes flow. By manually setting which ho approx under [ho options], users can choose other approximations (see Section 7.3). runHalfar.py This python script generates the dome initial condition and runs CISM. halfar results.py This script compares model results to the analytic solution. 1http://www.giseis.alaska.edu/input/carl/teaching/extra/bueler notes.pdf "
+  },
+  {
+    "type": "Highlight",
+    "page": 1,
+    "start_xy": [
+      93.0178,
+      352.573
+    ],
+    "text": "an initial thickness of H = 707.1 m. ",
+    "author": "chunwei",
+    "created": "2023-10-31T11:09:51",
+    "color": "#0000ff",
+    "pre_context": "(8.2) (8.3) (8.4) 128 CHAPTER 8. TEST CASES 8.1.1 Halfar dome The Halfar test case describes the time evolution of a parabolic dome of ice, as described by Halfar (1983). For a flat-bedded SIA problem, this case has an analytic solution for the time varying ice thickness. We start with the general SIA ice evolution equation, ∂H ∂t = ∇· (ΓH n+2 n 1 − H | |∇ ∇ H), (8.1) where n is the exponent in the Glen flow law, commonly taken as 3, and Γ is a positive constant: For n = 3, the time-dependent solution is Γ= 2 n + 2 A(ρg)n. H(t, r) = H0 1 9 t0 t ! \" 1   t0 t \" − %! 1 18 r R0 & 3 7 4 3 ,   where ! and H0, R0 are the central height of the dome and its radius at time t = t0. For more details, see Halfar (1983), Bueler et al. (2005), and this link1. \" t0 = 1 18Γ 7 4 3 R4 0 H 7 0 , Provided files Our implementation of the Halfar dome test has an initial radius of R0 = 21.2 km and ",
+    "post_context": "These values can be changed by editing the halfarDome function in runHalfar.py. • • • • • README.md Information about the test case, including technical details about running it. halfar.config This is the config file defining CISM options. It is set up to run Glide. halfar-HO.config This alternative config file is set up to run Glissade using the Blatter-Pattyn approximation of Stokes flow. By manually setting which ho approx under [ho options], users can choose other approximations (see Section 7.3). runHalfar.py This python script generates the dome initial condition and runs CISM. halfar results.py This script compares model results to the analytic solution. 1http://www.giseis.alaska.edu/input/carl/teaching/extra/bueler notes.pdf "
+  }
+]
